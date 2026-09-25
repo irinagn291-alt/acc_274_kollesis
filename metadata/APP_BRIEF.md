@@ -1,4 +1,4 @@
-<!-- gf-brief source=51c7eccfddf754ad3789e4bf7aab2c82b65e4ce337104caa951298e2b2ae42bf written=2026-09-26T02:14:05+03:00 -->
+<!-- gf-brief source=51c7eccfddf754ad3789e4bf7aab2c82b65e4ce337104caa951298e2b2ae42bf written=2026-09-26T02:14:20+03:00 -->
 # Kollesis
 
 ## What it is
