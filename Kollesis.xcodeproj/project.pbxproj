@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022C0C4917BB23648E25B193 /* RollVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0BB0EEA55A8D26F4E73ECC /* RollVault.swift */; };
+		0C9C56202E8278DB9D3A9F30 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C55E46BD072934D663A1A4 /* Work.swift */; };
+		110A07F38E92871DB7FF8D77 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = D8D44E86F34B9FB8B3D0F19E /* OneSignalExtension */; };
+		13DB6EAAF98291366B8F970A /* RollLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1187C98CB03E0E3621E9DC /* RollLinks.swift */; };
+		16807C9CC707F6AE09EDECD7 /* Seam.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC0517E0853332843B8CF0 /* Seam.swift */; };
+		2C289B9F8ED03FC8A2F56B56 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CDB7128CC02E3B1851EF75 /* SavedView.swift */; };
+		31E66C0A0321DD24950CC367 /* CatalogClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BA8C099F8E8E13D4A29DA /* CatalogClient.swift */; };
+		380BA5D90F9E585446346102 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4A76E3F85F9C9FD4CF61493C /* Alamofire */; };
+		46D7E357DB36AFC3D2B34311 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082FB9DD7B7C3C6514F9005 /* APIConfig.swift */; };
+		52A02AF9C9A9B6DD421833D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7EEA24C7862AB21ABB1CE8 /* Assets.xcassets */; };
+		62BB37489ABFA2796BFAFA39 /* RollIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68A72A2920A6C7289907238 /* RollIntents.swift */; };
+		67B05D569551270BA530B08B /* KolInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF34BA9CF386D290B9E7B03 /* KolInk.swift */; };
+		77AE2E48521F673C89550F68 /* KollesisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE6F8E3CD3AE735BEBB7AD9 /* KollesisApp.swift */; };
+		835378F52A06C4182C2C95E0 /* RollDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA78E78586AFFEBCD743E2D /* RollDocument.swift */; };
+		995E46848EEE5B314530E40A /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38718E9BB2D3547A890587F5 /* OnboardingFlow.swift */; };
+		9B1FC49669BA3173ECB32EC5 /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79242980C01ABC37BFFF777 /* ReviewLaunch.swift */; };
+		9D3F06873BADBBC47BF2D338 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C501CBF2EF75EA7C4EC72 /* AppDelegate.swift */; };
+		A3B9C9A614A11C51FBB6A70F /* RollStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C60C4E095E0E25331F9432 /* RollStore.swift */; };
+		A87F0B0332080BC8E32A8DC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECA2B0AE05394865CD039E /* ContentView.swift */; };
+		AEAF496AD7E75536C3E24670 /* SeamMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BD434A44F2EBE2D3742D2 /* SeamMark.swift */; };
+		B3B10E3EF3858C03E48868D7 /* KollesisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E50DC02ABDA792E37C5B5 /* KollesisTests.swift */; };
+		B9550B034A11F7BDD960E6B7 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 8F85E545309DF00FF644A77F /* OneSignalInAppMessages */; };
+		BA0FE4FA2B13D3F6391B3AB2 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 94E8D52E511A807418794950 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C48B4461C8268BCDB2E0B2DF /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C22FE5F75210840732267C /* DesignTokens.swift */; };
+		C65467168BDA48F8572C93D4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287283D024F60E5ADAA363CD /* SettingsView.swift */; };
+		D863138D6C3FCC92B019E5BA /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 5239D3CBC70E9F31C6541A02 /* OneSignalFramework */; };
+		DB34183B92212DF9C5EB30B3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F01E1AA54A47C36CC1D1587 /* NotificationService.swift */; };
+		E1740F69C8F0C1FA676A2C6E /* Volumen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79B1BBA32E3DEBF42BBD819 /* Volumen.swift */; };
+		EF7E224DF72DE7A3A525330B /* GardnerShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BAE91AB9C3ADB82CDD712A /* GardnerShelf.swift */; };
+		F12C174A2A20E205B154E649 /* TearMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139A8C211EBA75A434032B80 /* TearMark.swift */; };
+		F4AB51C89A0EBCB65F7EB3B7 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193230A6674A9B55DC7F2AF /* ExploreView.swift */; };
+		F7A3A592B54DB0282790CE62 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C129ACED558DCD4C6BC3F614 /* QuizView.swift */; };
+		FD826153A9DBAA6C610EFB62 /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED39903F6A0E195332DE2A1C /* Roll.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3677DC1DC7F9AAC83A93E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EE179629905155191031BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 661E8E5AD42FDF3ADCB49B81;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+		F5B74DF1569E97A0D8A47DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EE179629905155191031BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7333109C5465966C3B15FE8D;
+			remoteInfo = Kollesis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E9A9FF17DC83821712EEEAB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BA0FE4FA2B13D3F6391B3AB2 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		043BD434A44F2EBE2D3742D2 /* SeamMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeamMark.swift; sourceTree = "<group>"; };
+		1021274A78361EA374A2F00F /* Kollesis.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Kollesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C22FE5F75210840732267C /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		1193230A6674A9B55DC7F2AF /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		139A8C211EBA75A434032B80 /* TearMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TearMark.swift; sourceTree = "<group>"; };
+		1B7EEA24C7862AB21ABB1CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C1187C98CB03E0E3621E9DC /* RollLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollLinks.swift; sourceTree = "<group>"; };
+		1F01E1AA54A47C36CC1D1587 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		1FA78E78586AFFEBCD743E2D /* RollDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDocument.swift; sourceTree = "<group>"; };
+		287283D024F60E5ADAA363CD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		32CDB7128CC02E3B1851EF75 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		38718E9BB2D3547A890587F5 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		50ECA2B0AE05394865CD039E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54BAE91AB9C3ADB82CDD712A /* GardnerShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardnerShelf.swift; sourceTree = "<group>"; };
+		6BE6F8E3CD3AE735BEBB7AD9 /* KollesisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KollesisApp.swift; sourceTree = "<group>"; };
+		6D4C501CBF2EF75EA7C4EC72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FF34BA9CF386D290B9E7B03 /* KolInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KolInk.swift; sourceTree = "<group>"; };
+		79C55E46BD072934D663A1A4 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		94E8D52E511A807418794950 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79242980C01ABC37BFFF777 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		C129ACED558DCD4C6BC3F614 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		C20E50DC02ABDA792E37C5B5 /* KollesisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KollesisTests.swift; sourceTree = "<group>"; };
+		C79B1BBA32E3DEBF42BBD819 /* Volumen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volumen.swift; sourceTree = "<group>"; };
+		D082FB9DD7B7C3C6514F9005 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		D50BA8C099F8E8E13D4A29DA /* CatalogClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogClient.swift; sourceTree = "<group>"; };
+		D8C60C4E095E0E25331F9432 /* RollStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollStore.swift; sourceTree = "<group>"; };
+		ED39903F6A0E195332DE2A1C /* Roll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
+		F0F50323E2B5AD87DC8849DF /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = Vendor/Alamofire; sourceTree = SOURCE_ROOT; };
+		F1EC0517E0853332843B8CF0 /* Seam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seam.swift; sourceTree = "<group>"; };
+		F68A72A2920A6C7289907238 /* RollIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollIntents.swift; sourceTree = "<group>"; };
+		FD0BB0EEA55A8D26F4E73ECC /* RollVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollVault.swift; sourceTree = "<group>"; };
+		FE22943E8890E62C4EF9574D /* KollesisTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = KollesisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43A6DD41FF9FFDD73915A702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110A07F38E92871DB7FF8D77 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		687C975150F4C7E5B9F2E73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380BA5D90F9E585446346102 /* Alamofire in Frameworks */,
+				D863138D6C3FCC92B019E5BA /* OneSignalFramework in Frameworks */,
+				B9550B034A11F7BDD960E6B7 /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E707785F1B56DA3D147DDD1 /* SeamMark */ = {
+			isa = PBXGroup;
+			children = (
+				043BD434A44F2EBE2D3742D2 /* SeamMark.swift */,
+			);
+			path = SeamMark;
+			sourceTree = "<group>";
+		};
+		3F3402D554E3C982F8A4023A /* TearMark */ = {
+			isa = PBXGroup;
+			children = (
+				139A8C211EBA75A434032B80 /* TearMark.swift */,
+			);
+			path = TearMark;
+			sourceTree = "<group>";
+		};
+		49B9439671CEDEAC43C2BE23 /* Volumen */ = {
+			isa = PBXGroup;
+			children = (
+				C79B1BBA32E3DEBF42BBD819 /* Volumen.swift */,
+			);
+			path = Volumen;
+			sourceTree = "<group>";
+		};
+		4D0478540A48CF5B0AA6529A /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				D50BA8C099F8E8E13D4A29DA /* CatalogClient.swift */,
+				1193230A6674A9B55DC7F2AF /* ExploreView.swift */,
+				54BAE91AB9C3ADB82CDD712A /* GardnerShelf.swift */,
+				32CDB7128CC02E3B1851EF75 /* SavedView.swift */,
+				79C55E46BD072934D663A1A4 /* Work.swift */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		59924C3FF60D0CB5A1CA62DE = {
+			isa = PBXGroup;
+			children = (
+				ABB22C8EB6E92F386F60B7B7 /* Kollesis */,
+				ED2197199CE332B6FAFA07AE /* KollesisTests */,
+				64D062379D1900FBF934854C /* OneSignalNotificationServiceExtension */,
+				8B496E838211ECB12C312C17 /* Packages */,
+				9DA2679E629D18486515DF64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D062379D1900FBF934854C /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1F01E1AA54A47C36CC1D1587 /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		6AA43CAC2A90AC38E2C159CF /* Seam */ = {
+			isa = PBXGroup;
+			children = (
+				F1EC0517E0853332843B8CF0 /* Seam.swift */,
+			);
+			path = Seam;
+			sourceTree = "<group>";
+		};
+		8B496E838211ECB12C312C17 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F0F50323E2B5AD87DC8849DF /* Alamofire */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		9DA2679E629D18486515DF64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1021274A78361EA374A2F00F /* Kollesis.app */,
+				FE22943E8890E62C4EF9574D /* KollesisTests.xctest */,
+				94E8D52E511A807418794950 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB22C8EB6E92F386F60B7B7 /* Kollesis */ = {
+			isa = PBXGroup;
+			children = (
+				D082FB9DD7B7C3C6514F9005 /* APIConfig.swift */,
+				6D4C501CBF2EF75EA7C4EC72 /* AppDelegate.swift */,
+				1B7EEA24C7862AB21ABB1CE8 /* Assets.xcassets */,
+				50ECA2B0AE05394865CD039E /* ContentView.swift */,
+				10C22FE5F75210840732267C /* DesignTokens.swift */,
+				6BE6F8E3CD3AE735BEBB7AD9 /* KollesisApp.swift */,
+				B79242980C01ABC37BFFF777 /* ReviewLaunch.swift */,
+				B6EA81AA3929DBEA1C7A2A9A /* Roll */,
+				6AA43CAC2A90AC38E2C159CF /* Seam */,
+				3E707785F1B56DA3D147DDD1 /* SeamMark */,
+				3F3402D554E3C982F8A4023A /* TearMark */,
+				49B9439671CEDEAC43C2BE23 /* Volumen */,
+				4D0478540A48CF5B0AA6529A /* Work */,
+			);
+			path = Kollesis;
+			sourceTree = "<group>";
+		};
+		B6EA81AA3929DBEA1C7A2A9A /* Roll */ = {
+			isa = PBXGroup;
+			children = (
+				6FF34BA9CF386D290B9E7B03 /* KolInk.swift */,
+				38718E9BB2D3547A890587F5 /* OnboardingFlow.swift */,
+				C129ACED558DCD4C6BC3F614 /* QuizView.swift */,
+				ED39903F6A0E195332DE2A1C /* Roll.swift */,
+				1FA78E78586AFFEBCD743E2D /* RollDocument.swift */,
+				F68A72A2920A6C7289907238 /* RollIntents.swift */,
+				1C1187C98CB03E0E3621E9DC /* RollLinks.swift */,
+				D8C60C4E095E0E25331F9432 /* RollStore.swift */,
+				FD0BB0EEA55A8D26F4E73ECC /* RollVault.swift */,
+				287283D024F60E5ADAA363CD /* SettingsView.swift */,
+			);
+			path = Roll;
+			sourceTree = "<group>";
+		};
+		ED2197199CE332B6FAFA07AE /* KollesisTests */ = {
+			isa = PBXGroup;
+			children = (
+				C20E50DC02ABDA792E37C5B5 /* KollesisTests.swift */,
+			);
+			path = KollesisTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661E8E5AD42FDF3ADCB49B81 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628D09B77C2778BFBD5317FD /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				F4584E012BA41627A194E3BA /* Sources */,
+				43A6DD41FF9FFDD73915A702 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				D8D44E86F34B9FB8B3D0F19E /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 94E8D52E511A807418794950 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7333109C5465966C3B15FE8D /* Kollesis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72A1B39A65FF4B000AA9040 /* Build configuration list for PBXNativeTarget "Kollesis" */;
+			buildPhases = (
+				3FDA5C98CD54C870C85EFE65 /* Sources */,
+				A25A45787341DDB136E36073 /* Resources */,
+				687C975150F4C7E5B9F2E73D /* Frameworks */,
+				9E9A9FF17DC83821712EEEAB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EDCBCFA95A83A3CBF6F7886 /* PBXTargetDependency */,
+			);
+			name = Kollesis;
+			packageProductDependencies = (
+				4A76E3F85F9C9FD4CF61493C /* Alamofire */,
+				5239D3CBC70E9F31C6541A02 /* OneSignalFramework */,
+				8F85E545309DF00FF644A77F /* OneSignalInAppMessages */,
+			);
+			productName = Kollesis;
+			productReference = 1021274A78361EA374A2F00F /* Kollesis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3DC397E182FD6FDC59C2DF8 /* KollesisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A090096319398A8606AFE7A /* Build configuration list for PBXNativeTarget "KollesisTests" */;
+			buildPhases = (
+				B0A7B6A29DA2CCC674D6742D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE525DA10BEE112635CFC89F /* PBXTargetDependency */,
+			);
+			name = KollesisTests;
+			packageProductDependencies = (
+			);
+			productName = KollesisTests;
+			productReference = FE22943E8890E62C4EF9574D /* KollesisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EE179629905155191031BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					661E8E5AD42FDF3ADCB49B81 = {
+						ProvisioningStyle = Automatic;
+					};
+					7333109C5465966C3B15FE8D = {
+						ProvisioningStyle = Automatic;
+					};
+					A3DC397E182FD6FDC59C2DF8 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 30CF9DF55FEAC5CEAE6DBFBD /* Build configuration list for PBXProject "Kollesis" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 59924C3FF60D0CB5A1CA62DE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E0F1A91B4AE5AB90EB380E49 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				99563CB64FB0D23A06C554CE /* XCLocalSwiftPackageReference "Vendor/Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9DA2679E629D18486515DF64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7333109C5465966C3B15FE8D /* Kollesis */,
+				A3DC397E182FD6FDC59C2DF8 /* KollesisTests */,
+				661E8E5AD42FDF3ADCB49B81 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A25A45787341DDB136E36073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A02AF9C9A9B6DD421833D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDA5C98CD54C870C85EFE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D7E357DB36AFC3D2B34311 /* APIConfig.swift in Sources */,
+				9D3F06873BADBBC47BF2D338 /* AppDelegate.swift in Sources */,
+				31E66C0A0321DD24950CC367 /* CatalogClient.swift in Sources */,
+				A87F0B0332080BC8E32A8DC6 /* ContentView.swift in Sources */,
+				C48B4461C8268BCDB2E0B2DF /* DesignTokens.swift in Sources */,
+				F4AB51C89A0EBCB65F7EB3B7 /* ExploreView.swift in Sources */,
+				EF7E224DF72DE7A3A525330B /* GardnerShelf.swift in Sources */,
+				67B05D569551270BA530B08B /* KolInk.swift in Sources */,
+				77AE2E48521F673C89550F68 /* KollesisApp.swift in Sources */,
+				995E46848EEE5B314530E40A /* OnboardingFlow.swift in Sources */,
+				F7A3A592B54DB0282790CE62 /* QuizView.swift in Sources */,
+				9B1FC49669BA3173ECB32EC5 /* ReviewLaunch.swift in Sources */,
+				FD826153A9DBAA6C610EFB62 /* Roll.swift in Sources */,
+				835378F52A06C4182C2C95E0 /* RollDocument.swift in Sources */,
+				62BB37489ABFA2796BFAFA39 /* RollIntents.swift in Sources */,
+				13DB6EAAF98291366B8F970A /* RollLinks.swift in Sources */,
+				A3B9C9A614A11C51FBB6A70F /* RollStore.swift in Sources */,
+				022C0C4917BB23648E25B193 /* RollVault.swift in Sources */,
+				2C289B9F8ED03FC8A2F56B56 /* SavedView.swift in Sources */,
+				16807C9CC707F6AE09EDECD7 /* Seam.swift in Sources */,
+				AEAF496AD7E75536C3E24670 /* SeamMark.swift in Sources */,
+				C65467168BDA48F8572C93D4 /* SettingsView.swift in Sources */,
+				F12C174A2A20E205B154E649 /* TearMark.swift in Sources */,
+				E1740F69C8F0C1FA676A2C6E /* Volumen.swift in Sources */,
+				0C9C56202E8278DB9D3A9F30 /* Work.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A7B6A29DA2CCC674D6742D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B10E3EF3858C03E48868D7 /* KollesisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4584E012BA41627A194E3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB34183B92212DF9C5EB30B3 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EDCBCFA95A83A3CBF6F7886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 661E8E5AD42FDF3ADCB49B81 /* OneSignalNotificationServiceExtension */;
+			targetProxy = C3677DC1DC7F9AAC83A93E38 /* PBXContainerItemProxy */;
+		};
+		EE525DA10BEE112635CFC89F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7333109C5465966C3B15FE8D /* Kollesis */;
+			targetProxy = F5B74DF1569E97A0D8A47DC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00CF638714843394012C08AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kollesis.roll.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A15FF738050113AC476EFAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		1E500EBCE1F4576A7A9C645E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kollesis.roll.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31DD1E93E399C2BB8E367D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Kollesis.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Kollesis-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Kollesis;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kollesis.roll;
+				PRODUCT_NAME = Kollesis;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		565A8C7163D75C6F6E98CB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kollesis.roll.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kollesis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kollesis";
+			};
+			name = Release;
+		};
+		B46698F99E9717E74D9C15D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kollesis.roll.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kollesis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kollesis";
+			};
+			name = Debug;
+		};
+		F6D0F7960B58ADD0F0D20027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Kollesis.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Kollesis-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Kollesis;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kollesis.roll;
+				PRODUCT_NAME = Kollesis;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDC08A3CA0172E49C789660D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CF9DF55FEAC5CEAE6DBFBD /* Build configuration list for PBXProject "Kollesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A15FF738050113AC476EFAE /* Debug */,
+				FDC08A3CA0172E49C789660D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		628D09B77C2778BFBD5317FD /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E500EBCE1F4576A7A9C645E /* Debug */,
+				00CF638714843394012C08AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A090096319398A8606AFE7A /* Build configuration list for PBXNativeTarget "KollesisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46698F99E9717E74D9C15D7 /* Debug */,
+				565A8C7163D75C6F6E98CB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F72A1B39A65FF4B000AA9040 /* Build configuration list for PBXNativeTarget "Kollesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D0F7960B58ADD0F0D20027 /* Debug */,
+				31DD1E93E399C2BB8E367D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		99563CB64FB0D23A06C554CE /* XCLocalSwiftPackageReference "Vendor/Alamofire" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/Alamofire;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0F1A91B4AE5AB90EB380E49 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A76E3F85F9C9FD4CF61493C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Alamofire;
+		};
+		5239D3CBC70E9F31C6541A02 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0F1A91B4AE5AB90EB380E49 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		8F85E545309DF00FF644A77F /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0F1A91B4AE5AB90EB380E49 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		D8D44E86F34B9FB8B3D0F19E /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0F1A91B4AE5AB90EB380E49 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0EE179629905155191031BE6 /* Project object */;
+}

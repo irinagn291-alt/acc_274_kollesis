@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.kollesis.roll</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>kollesis</string>
+			</array>
+		</dict>
+	</array>
+	<key>OneSignal_app_groups_key</key>
+	<string>group.com.kollesis.roll.onesignal</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+</dict>
+</plist>

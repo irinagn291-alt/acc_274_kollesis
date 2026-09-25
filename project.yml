@@ -1,0 +1,110 @@
+name: Kollesis
+options:
+  bundleIdPrefix: com.kollesis
+  deploymentTarget:
+    iOS: '17.0'
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: '6.2'
+    IPHONEOS_DEPLOYMENT_TARGET: '17.0'
+    SWIFT_STRICT_CONCURRENCY: complete
+targets:
+  Kollesis:
+    type: application
+    platform: iOS
+    sources:
+    - path: Kollesis
+      excludes:
+      - Info.plist
+    resources:
+    - path: PrivacyInfo.xcprivacy
+    dependencies:
+    - package: Alamofire
+    - package: OneSignal
+      product: OneSignalFramework
+    - package: OneSignal
+      product: OneSignalInAppMessages
+    - target: OneSignalNotificationServiceExtension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kollesis.roll
+        PRODUCT_NAME: Kollesis
+        GENERATE_INFOPLIST_FILE: 'YES'
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: 'NO'
+        INFOPLIST_KEY_CFBundleDisplayName: Kollesis
+        INFOPLIST_KEY_UILaunchScreen_Generation: 'YES'
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIRequiresFullScreen: 'YES'
+        INFOPLIST_KEY_UIUserInterfaceStyle: Light
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.education
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: 1,2
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: 'NO'
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: 'NO'
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0.0
+        SWIFT_STRICT_CONCURRENCY: complete
+        ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: 'NO'
+        ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS: 'NO'
+        CODE_SIGN_STYLE: Automatic
+        INFOPLIST_FILE: Support/Kollesis-Info.plist
+        CODE_SIGN_ENTITLEMENTS: Support/Kollesis.entitlements
+  KollesisTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+    - path: KollesisTests
+    dependencies:
+    - target: Kollesis
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kollesis.roll.tests
+        GENERATE_INFOPLIST_FILE: 'YES'
+        IPHONEOS_DEPLOYMENT_TARGET: '17.0'
+        SWIFT_VERSION: '6.2'
+        SWIFT_STRICT_CONCURRENCY: complete
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Kollesis.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kollesis
+        BUNDLE_LOADER: $(TEST_HOST)
+        CODE_SIGN_STYLE: Automatic
+  OneSignalNotificationServiceExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+    - path: OneSignalNotificationServiceExtension
+    dependencies:
+    - package: OneSignal
+      product: OneSignalExtension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kollesis.roll.OneSignalNotificationServiceExtension
+        PRODUCT_NAME: OneSignalNotificationServiceExtension
+        GENERATE_INFOPLIST_FILE: 'YES'
+        INFOPLIST_FILE: Support/OneSignalNotificationServiceExtension-Info.plist
+        INFOPLIST_KEY_CFBundleDisplayName: OneSignalNotificationServiceExtension
+        CODE_SIGN_ENTITLEMENTS: Support/OneSignalNotificationServiceExtension.entitlements
+        CODE_SIGN_STYLE: Automatic
+        IPHONEOS_DEPLOYMENT_TARGET: '17.0'
+        SWIFT_VERSION: '5.0'
+        SWIFT_STRICT_CONCURRENCY: minimal
+        TARGETED_DEVICE_FAMILY: 1,2
+        SKIP_INSTALL: 'YES'
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
+schemes:
+  Kollesis:
+    build:
+      targets:
+        Kollesis: all
+        KollesisTests:
+        - test
+    test:
+      targets:
+      - KollesisTests
+packages:
+  Alamofire:
+    path: Vendor/Alamofire
+  OneSignal:
+    url: https://github.com/OneSignal/OneSignal-XCFramework
+    from: 5.5.0

@@ -1,0 +1,16 @@
+Kollesis is a portrait, light-mode education app for people who want to keep Isabella Stewart Gardner Museum paintings on their device and practice finding where the maker’s name meets the title. You file a painting onto the roll, glue maker and title into one caption, then tap Split on the true join.
+
+• Keep Gardner paintings on this device from a local shelf or search
+• Search by painting or maker
+• File a painting onto the roll
+• Glue maker and title into one caption
+• Tap Split on joins; the true join between maker and title files; other joins tear
+• See Filed joins and Wrong joins counts
+• Browse Recently parted and Saved lists for Parted works, Filed joins, and Wrong joins
+• Retract the newest mark
+• Replay the welcome
+• Erase the entire roll on this device
+• Contact support and open museum source links
+• Retry when the roll did not save
+
+Paintings, marks, and glued captions are kept on this device.

@@ -1,0 +1,17 @@
+The app does not request camera, microphone, photos, location, or tracking access, and ships no usage-description strings for those permissions.
+
+There is no login or accounts, no in-app purchase, no user-generated content shared with others, no account deletion flow, and no App Tracking Transparency prompt.
+
+Kollesis is a portrait, light-mode education app for people who want to keep Isabella Stewart Gardner Museum paintings on their device and practice finding where the maker’s name meets the title. You file a painting onto the roll, glue maker and title into one caption, then tap Split on the true join. Correct joins become parted works; wrong ones become torn joins.
+
+No credentials or demo account are needed. On a cold launch, if the welcome has not been finished, a full-screen welcome shows three pages: Save a painting with body Keep a Gardner painting on this device and button Next; Split the glue with body Tap the join between maker and title and button Next; File the roll with body Parted paintings move to Saved with their marks and button Continue. Continue dismisses the welcome and opens Split the caption. If the welcome was already finished, cold launch opens Split the caption directly. When the roll is smooth, tap Explore to open Keep a painting. If The shelf is waiting, tap Show local shelf, or search using the Painting or maker field. Select a work and tap File this painting. On Split the caption, tap Glue a caption or Glue another when a loose painting is ready, then tap Split on the true join between maker and title. Open Saved to see Parted works, Filed joins, and Wrong joins. Open Settings to reach Support for Contact support, Sources, Retract newest mark, Replay the welcome, and Erase the roll.
+
+Paintings, marks, and glued captions are kept on this device. On Support, Contact support opens the support page.
+
+Behaviour does not differ by region beyond count labels using the device’s number formatting and day stamps as plain calendar day numbers. There is no separate region-locked feature set beyond that.
+
+No licence or regulated-industry paperwork applies. This is an education app for personal practice with museum paintings; museum attribution appears under Sources on Support as Isabella Stewart Gardner Museum with Museum home, Collection, and Wikidata Q49135.
+
+The app is a personal log only and gives no recommendations. It shows no health, medical, or product-health information.
+
+The app does not scan barcodes or QR codes.

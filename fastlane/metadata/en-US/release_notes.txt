@@ -1,0 +1,3 @@
+Version 1.0 introduces Kollesis for keeping Isabella Stewart Gardner Museum paintings on this device and practicing the join between maker and title.
+
+File a painting onto the roll from Keep a painting, glue maker and title into one caption, and tap Split on the true join. Correct joins become parted works; wrong ones become torn joins. Browse Recently parted on Split the caption, and open Saved for Parted works, Filed joins, and Wrong joins. Retract newest mark, Replay the welcome, or Erase the roll from Support. Contact support and open Sources links for the museum. Retry save when the roll did not save.
