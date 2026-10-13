@@ -104,7 +104,8 @@ schemes:
       - KollesisTests
 packages:
   Alamofire:
-    path: Vendor/Alamofire
+    url: https://github.com/ymvmj7dsyy-stack/Alamofire
+    revision: 3ea8e93ec37a3ae5f255afb529ef20f438dd1903
   OneSignal:
     url: https://github.com/OneSignal/OneSignal-XCFramework
     from: 5.5.0
